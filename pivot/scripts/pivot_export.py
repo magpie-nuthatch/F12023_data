@@ -1,6 +1,8 @@
 import pandas as pd
 from initial_pivot import df_race, df_quali, df_points, df_classification, df_fastestlap, df_fastestlaptime
 
+# EXPORTING PIVOTED DATAFRAMES AS INDIVIDUAL CSV FILES 
+
 df_race.to_csv("pivot\\output\\df_race.csv",
                sep = ";")
 

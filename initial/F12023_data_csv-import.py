@@ -49,7 +49,7 @@ for x in mycursor:
 # IMPORT CSV FILE AS DATAFRAME
 df = pd.read_csv(
     "initial\\csv\\Formula1_2023season_raceResults.csv",
-    encoding='latin1',
+    encoding = "latin1",
     sep = ",",
     )
 
